@@ -3,6 +3,7 @@ package practice.creational.factoryMethod;
 import java.util.logging.Logger;
 
 public class App {
+
     private final Blacksmith blacksmith;
 
     public App(Blacksmith blacksmith) {
@@ -21,6 +22,8 @@ public class App {
 
     private void manufactureWeapons() {
         var spear = blacksmith.manufactureWeapon(WeaponType.SPEAR);
+        System.out.println(spear.toString());
         var axe = blacksmith.manufactureWeapon(WeaponType.AXE);
+        System.out.println(axe.toString());
     }
 }
