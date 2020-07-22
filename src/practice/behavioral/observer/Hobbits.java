@@ -1,5 +1,6 @@
 package practice.behavioral.observer;
 
+//concreteObserver
 public class Hobbits implements WeatherObserver {
 
     @Override

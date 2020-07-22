@@ -3,6 +3,7 @@ package practice.behavioral.observer;
 import java.util.ArrayList;
 import java.util.List;
 
+//Subject
 public class Weather {
 
     private WeatherType currentWeather;
